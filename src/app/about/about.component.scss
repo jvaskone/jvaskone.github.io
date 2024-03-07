@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    flex-flow: column wrap;
+ 
+    background-color: #c4d6e2;
+    width: 100%;
+
+   padding-left: 100px;
+   padding-right: 100px; 
+      
+  }
+
+  .inner-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .description {
+    flex-basis: 65%;
+    flex-shrink: 3;
+  }
+
+  .about-image {
+    flex: none;
+  }
+
+
+  
+  img {
+    max-height: 150px;
+  }
