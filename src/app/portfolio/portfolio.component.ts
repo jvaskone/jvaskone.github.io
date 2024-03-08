@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, NavigationExtras, Router } from '@angular/router';
 
 @Component({
   selector: 'app-portfolio',
@@ -9,4 +10,11 @@ import { Component } from '@angular/core';
 })
 export class PortfolioComponent {
 
+  constructor(private router: Router, private route: ActivatedRoute) {
+
+  }
+
+  goToItems() {
+    this.router.navigate(['items'], { relativeTo: this.route });
+  }
 }

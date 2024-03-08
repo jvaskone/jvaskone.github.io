@@ -1,0 +1,84 @@
+.content {
+    display: flex;
+    flex-flow: column wrap;    
+
+    width: 100%;
+
+
+    background-color: white;  
+   padding-bottom: 50px;
+  
+  }
+
+  .surf-red  {
+    display: flex;
+    flex-flow: column wrap; 
+    gap: 30px;
+    
+    padding-left: 100px;
+    padding-right: 100px; 
+    background-color: #c4d6e2;
+    padding-bottom: 30px;
+  }  
+
+  .property-mapping {
+    display: flex;
+    flex-flow: column wrap; 
+    gap: 30px;
+    background-color: #99B8CD;
+    padding-left: 100px;
+    padding-right: 100px; 
+    //padding-bottom: 30px;
+  }
+
+  .property-images {
+    display: flex;
+    flex-flow: row wrap; 
+    gap: 30px;
+    
+  }
+
+  .property-image {
+    width: 30%;
+    height: auto;
+    min-height: 100px;
+    padding-bottom: 30px;
+  }
+
+  .reduction{
+    display: flex;
+    flex-flow: row wrap; 
+    align-items: center;
+    gap: 10px;
+  }
+
+  .reduction-text {
+    width: 40%;
+    
+  }  
+
+  h3 {
+    border-bottom:1.2px #c4d6e2 solid;
+    padding-left: 100px;
+    padding-right: 100px; 
+  }
+
+  h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: small;
+    text-transform: uppercase;
+
+  }
+
+  .image {
+    width: 55%;
+    height: auto;
+  }
+
+  .back {
+    background-color: white;
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;     
+  }

@@ -1,0 +1,48 @@
+<div class="content">    
+    <div ><h3>BrainCAD</h3></div>
+    
+    <div class="surf-red">
+        <h4>1. Surface smoothing and reduction of the number of triangles:</h4>
+        <div class="reduction">  
+            <div class="reduction-text">
+            <p>The first image shows a surface generated from raw volumetric data.
+            </p>
+            <p>
+                It is displayed directly by OpenGL without any optimization. 
+                If the volumetric data is big, the surface contains a huge number of triangles which prevents real-time rendering
+                and it can also contain bad-shaped (pin-like) triangles.</p>
+            </div>
+            <img src="../../../assets/images/brain_s2_01.jpg" class="image">
+        </div>
+        <div class="reduction"> 
+            <div class="reduction-text">        
+            <p>The second image shows a smooth surface which is done by geometry based triangulation.</p>
+        </div> 
+            <img src="../../../assets/images/brain_s2_02.jpg" class="image"> <br>
+            </div>
+        <div class="reduction">
+            <div class="reduction-text"> 
+            <p>The third surface is generated from the second using triangle reduction 
+            and the number of triangles are reduced approximately by 80%.</p>      
+        </div>   
+            <img src="../../../assets/images/brain_s2_03.jpg" class="image">  <br>
+        </div>
+    </div>
+
+    
+    <div class="property-mapping"> 
+            <h4>2. Property mapping:</h4>       
+            <div class="property-mapping-text">
+                <p>Property mapping means that some data is interpreted as <strong>colors</strong>
+                    and is combined with or mapped to data which is represented as <strong>shape</strong>. </p>
+            </div>  
+            <div class="property-images">
+                <img src="../../../assets/images/13.jpg" class="property-image">     
+                <img src="../../../assets/images/blend_01.jpg" class="property-image">     
+            </div> 
+    </div>    
+
+    <div class="back">
+    <button class="btn btn-primary" (click)="goBack()">Back</button>
+    </div>
+</div>

@@ -54,14 +54,27 @@
   }
   
 .item:hover .overlay{
-    height:50%
+    height:50%;
   }
   
- .item h3{
+  .item h3{
+    text-transform: none;
     font-size:18px;
     font-weight:700;
-    margin:10px 0 0
+    margin:10px 0 0;
   }
   .item h4{
-    font-size:14px
-  }
+    font-family:Montserrat,sans-serif;
+    font-weight:300;
+    font-size:14px;
+  }  
+//  .item .h3{
+//   font-family:Montserrat,sans-serif;
+//     font-size:18px;
+//     font-weight:700;
+//     margin:10px 0 0
+//   }
+//   .item .h4{
+//     font-family:Montserrat,sans-serif;
+//     font-size:12px
+//   }
