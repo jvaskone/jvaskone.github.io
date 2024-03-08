@@ -28,11 +28,18 @@
 }
 h3 {
     border-bottom:1.2px #c4d6e2 solid;
-    padding-left: 100px;
-    padding-right: 100px; 
+    padding-left: 10%;
+    padding-right: 10%; 
   }
 
 .image {
 
     width: 90%;
 }
+.back {
+    background-color: white;
+    margin-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;   
+    align-self: center; 
+  }
