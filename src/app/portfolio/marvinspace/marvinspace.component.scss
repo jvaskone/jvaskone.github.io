@@ -1,0 +1,38 @@
+.content {
+    display: flex;
+    flex-flow: column wrap;    
+    width: 100%;
+    background-color: white;  
+    padding-bottom: 50px;
+  }
+
+
+.row-item-1 {
+    display: flex;
+    flex-flow: column nowrap;
+    
+    background-color: #c4d6e2;
+    align-items: center;
+    padding-bottom: 20px;    
+    padding-top: 20px;
+}
+.row-item-2 {
+    
+    display: flex;
+    flex-flow: column nowrap;
+    
+    background-color: #99B8CD; 
+    align-items: center;
+    padding-bottom: 20px;    
+    padding-top: 20px;
+}
+h3 {
+    border-bottom:1.2px #c4d6e2 solid;
+    padding-left: 100px;
+    padding-right: 100px; 
+  }
+
+.image {
+
+    width: 90%;
+}
