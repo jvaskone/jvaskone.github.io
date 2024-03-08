@@ -9,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+  constructor() {
+    console.log(this.stringToHex("judit.vaskone@gmail.com"));
+  }
+    
+  stringToHex(str: string): string {
+    return str.split('').map(char => char.charCodeAt(0).toString(16).padStart(2, '0')).join('');
+}  
 }
