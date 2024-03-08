@@ -34,14 +34,16 @@
   .property-images {
     display: flex;
     flex-flow: row wrap; 
-    gap: 30px;
-    
+    gap: 30px;    
   }
 
   .property-image {
-    width: 30%;
+    //width: 30%;
+    //height: auto;
+    width: 200px;
     height: auto;
     padding-bottom: 30px;
+    
   }
 
   .reduction{
@@ -52,7 +54,7 @@
   }
 
   .reduction-text {
-    width: 40%;
+    width: 35%;
     
   }  
 
@@ -71,7 +73,8 @@
   }
 
   .image {
-    width: 55%;
+    width: 60%;
+    //width: 500px;
     height: auto;
   }
 
