@@ -12,20 +12,17 @@
 
   .inner-content {
     display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    gap: 30px;
+   
+    align-items: center;
+    justify-content: center;
   }
 
   .description {
-    flex-basis: 65%;
-    flex-shrink: 3;
+
+    padding-left: 20px;
   }
 
-  .about-image {
-    flex: none;
-  }
-
+ 
 
   
   img {

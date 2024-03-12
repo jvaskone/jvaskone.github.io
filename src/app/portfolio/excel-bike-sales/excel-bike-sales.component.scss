@@ -32,6 +32,7 @@ h3 {
     padding-top: 20px;
     padding-left: 10%;
     //padding-right: 10%;
+   //border: 1px solid red;    
 }
 
 .image {
@@ -40,13 +41,14 @@ h3 {
 
 .dash-images {
     display: flex;
-    flex-flow: row wrap;
-    //justify-content: center;
-    gap: 30px;
+    flex-direction: column;    
+    min-height: 100px;
 }
 
-.image-dash {
-    width: 40%;
+.image-dash {    
+    width: 75%;
+    height: auto;
+    min-height: 100px;
 }
 
 .back {
