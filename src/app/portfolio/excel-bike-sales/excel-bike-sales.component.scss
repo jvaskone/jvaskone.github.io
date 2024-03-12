@@ -1,0 +1,58 @@
+.content {
+    display: flex;
+    flex-flow: column wrap;    
+    width: 100%;
+   background-color: white;  
+   padding-bottom: 50px;
+  
+}
+
+
+h3 {
+    border-bottom:1.2px #c4d6e2 solid;
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+
+.row-item-1 {
+    display: flex;
+    flex-flow: column nowrap;    
+    background-color: #c4d6e2;    
+    padding-bottom: 20px;    
+    padding-top: 20px;
+    padding-left: 10%;
+    //padding-right: 10%;
+}
+
+.row-item-2 {    
+    display: flex;
+    flex-flow: column nowrap;    
+    background-color: #99B8CD;     
+    padding-bottom: 20px;    
+    padding-top: 20px;
+    padding-left: 10%;
+    //padding-right: 10%;
+}
+
+.image {
+    width: 75%;
+}
+
+.dash-images {
+    display: flex;
+    flex-flow: row wrap;
+    //justify-content: center;
+    gap: 30px;
+}
+
+.image-dash {
+    width: 40%;
+}
+
+.back {
+    background-color: white;
+    margin-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;   
+    align-self: center; 
+  }
