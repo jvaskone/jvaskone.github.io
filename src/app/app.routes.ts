@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MarvinspaceComponent } from './portfolio/marvinspace/marvinspace.component';
 import { CookiebookComponent } from './portfolio/cookiebook/cookiebook.component';
 import { ExcelBikeSalesComponent } from './portfolio/excel-bike-sales/excel-bike-sales.component';
+import { ExcelWorldPopulationComponent } from './portfolio/excel-world-population/excel-world-population.component';
 
 export const routes: Routes = [    
     { path: '', component: DashboardComponent },
@@ -11,4 +12,5 @@ export const routes: Routes = [
     { path: 'marvinspace', component: MarvinspaceComponent },  
     { path: 'cookiebook', component: CookiebookComponent },  
     { path: 'excel', component: ExcelBikeSalesComponent },   
+    { path: 'excel2', component: ExcelWorldPopulationComponent },   
 ];
