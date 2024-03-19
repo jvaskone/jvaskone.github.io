@@ -10,6 +10,14 @@
    padding-bottom: 50px;
   }
 
+  .portfolio-content {
+    display: flex;
+    flex-flow: column wrap;    
+    width: 100%;
+   background-color: white;  
+   padding-bottom: 50px;  
+}
+
   .item-container {
     display: flex;
     flex-flow: column wrap;
@@ -26,6 +34,7 @@
   h3 {
     border-bottom:1.2px #c4d6e2 solid;
   }
+
 
  h4{
     font-family:Montserrat,sans-serif;
