@@ -1,15 +1,20 @@
-
 <nav class="navbar navbar-expand-sm bg-light">
   <div class="container-fluid  justify-content-center">
     <ul id="menu-menu-en" class="navbar-nav">
       <li id="menu-item-60" class="nav-item">
-        <a class="nav-link" href="#" aria-current="page">Home</a></li>
+        <a class="nav-link" href="#" aria-current="page">{{"Home" | translate}}</a></li>
       <li id="menu-item-62" class="nav-item">
-        <a class="nav-link" href="#about-me" aria-current="page">About me</a></li>
+        <a class="nav-link" href="#about-me" aria-current="page">{{"About" | translate}}</a></li>
       <li id="menu-item-64" class="nav-item">
-        <a class="nav-link" href="#portfolio" aria-current="page">Portfolio</a></li>
+        <a class="nav-link" href="#portfolio" aria-current="page">{{"Portfolio" | translate}}</a></li>
       <li id="menu-item-348" class="nav-item">
-        <a class="nav-link" href="#contact" aria-current="page">Contact</a></li>        
+        <a class="nav-link" href="#contact" aria-current="page">{{"Contact" | translate}}</a></li>   
+      <li class="m-1">          
+          <img (click)='changeLanguage("hu")' src="https://www.worldometers.info/img/flags/hu-flag.gif" alt="Magyar" height="16px" width="26px">            
+      </li>
+      <li class="m-1">            
+         <img (click)='changeLanguage("en")' src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English" height="16px" width="26px">
+      </li>     
     </ul>
   </div>
 </nav>

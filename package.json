@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "delete-old": "rmdir /s /q docs\\browser",
+    "copy": "xcopy /s /e docs\\browser\\* docs\\ && copy docs\\index.html docs\\404.html",
+    "deploy": "npm run build && npm run copy && npm run delete-old"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +21,8 @@
     "@angular/platform-browser": "^17.2.0",
     "@angular/platform-browser-dynamic": "^17.2.0",
     "@angular/router": "^17.2.0",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
