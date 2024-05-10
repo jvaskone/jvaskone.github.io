@@ -1,8 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-top:0;color:#333}
-.h1,.h2,.h3,.h4,.h5,.h6,body,h1,h2,h3,h4,h5,h6,html{font-family:Montserrat,sans-serif;font-weight:300}
+
+@import './variables.scss';
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-top:0;color:$HeaderColor}
+.h1,.h2,.h3,.h4,.h5,.h6,body,h1,h2,h3,h4,h5,h6,html{font-family:$HeaderFont;font-weight:$FontWeight}
+
+
 p {
-    color: #555555;
+    color: $TextColor;
     margin-bottom: 10px;
 
 }
@@ -10,8 +15,8 @@ b, strong {
     font-weight: 700;
 }
 body {
-    font-family:Montserrat,sans-serif;
-    font-weight: 300;
+    font-family: $MainFont;
+    font-weight: $FontWeight;
     line-height: 1.42857143;    
 }
 h3 {
@@ -25,7 +30,7 @@ h3 {
   }
 
   .back {
-    background-color: white;
+    background-color: $BackgroundColor;
     margin-top: 30px;
     padding-left: 10%;
     padding-right: 10%;    
