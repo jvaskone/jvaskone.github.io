@@ -5,5 +5,15 @@
     "Portfolio": "Portfólió",
     "Contact": "Kapcsolat",
     "Computer graphics": "Komputergrafika",
-    "Data analysis": "Adatelemzés"
+    "Data analysis": "Adatelemzés",
+    "About_desc": {
+        "Desc_1": "Üdvözlöm az oldalamon! Vaskó-Szedlárné Judit vagyok. Kilenc év szakmai tapasztalattal rendelkezem a szoftverfejlesztés területén. Végzettségem: programtervező matematikus egyetemi diploma (2004, Debreceni Egyetem).",
+        "Desc_2": "Több, mint hét évig szoftverfejlesztőként dolgoztam cheminformatikai és orvosi területen.",
+        "Desc_3": "Főbb területek:",
+        "Area_1": "Komputergrafika: nagy (volumetrikus) adathalmazok megjelenítése orvosi és kémiai területen",
+        "Area_2": "Felhasználói felületek: részvétel a világ legnagyobb gyógyszergyártó cégei számára készített molekulamegjelenítő és szerkesztő Java alkalmazás felhasználói felületének tervezésében és megvalósításában",
+        "Area_3": "Licenszelés: teljes felelősségvállalás a cég licenszelésének újratervezésében és implementálásában, amely együttműködést igényelt minden egyes fejlesztő csapattal és az értékesítési osztállyal is",
+        "Desc_4": "Két éven át Scrum Master szerepben segítettem a fejlesztő csapatokat, szoros együttműködésben a cég vezetőségével és a többi agilis coach-al. Hozzájárultam a fejlesztő csapatok hatékonyságának növeléséhez és együttműködésük fejlesztéséhez.",
+        "Desc_5": "8 év alatt, amíg a gyermekeimmel teljes állású anyaként foglalkoztam, rájöttem, hogy a gyerekek tanítása az a hivatás, amely mellett igazán el tudok köteleződni. Így az okleveles matematika- és informatikatanár végzettség megszerzése után általános iskolában fogok tanítani. Célom a matematika és az informatika megszerettetése és színvonalas oktatása a következő generáció gyermekei számára."
+    }
 }

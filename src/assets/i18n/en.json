@@ -5,5 +5,15 @@
     "Portfolio": "Portfolio",
     "Contact": "Contact",
     "Computer graphics": "Computer graphics",
-    "Data analysis": "Data analysis"
+    "Data analysis": "Data analysis",
+    "About_desc": {
+        "Desc_1" : "Hello! My name is Judit and I have nine years of experience in software development. I have an MSc degree in Computer Sciences and Mathematics (2004, University of Debrecen, Hungary)."    ,
+        "Desc_2": "During my career I worked as a software developer for more than seven years in the cheminformatical and medical fields.",
+        "Desc_3": "Main areas:",
+        "Area_1": "Computer graphics: visualizing large datasets (volumetric data)",
+        "Area_2": "Contributed to the development of the worldwide known chemical molecule visualization and editor software written in Java. Focused on UI design, enhancing user experience and interface functionality.",
+        "Area_3": "Licensing: Solely responsible for the re-design and implementation of the company’s licensing system. Worked collaboratively with all developer teams and the sales department.",
+        "Desc_4": "I also performed in the Scrum Master role for two years. In this role I have worked closely with the company's management and agile coaches, enhancing the collaboration between developer teams, helping them understand and accept changes more easily.",
+        "Desc_5": "After dedicating 8 years to full-time childcare I realized that teaching children is the profession I can truly commit to. Therefore after obtaining my degree as Certified Teacher of Mathematics and Computer Science, I will be teaching at an elementary school. My goal is to foster a love for mathematics and computer science and provide high-quality education for the next generation of children."
+    }
 }
